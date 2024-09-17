@@ -49,6 +49,7 @@ import frc.robot.commands.AutoCommand.AutoCommandGenerator;
 public class Robot extends TimedRobot {
 
   public static final CTREConfigs ctreConfigs = new CTREConfigs();
+  public String str = "Helloworld!";
   
   private Command m_autonomousCommand;
 
